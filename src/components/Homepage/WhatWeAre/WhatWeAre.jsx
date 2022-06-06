@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../../helpers/Container'
 import Card from './Card'
 import aboutus from './svgs/aboutus.svg'
-import getInvolved from './svgs/getinvolved.svg'
+import getInvolved from './svgs/getInvolved.svg'
 import givingBack from './svgs/givingBack.svg'
 
 const cards = [
