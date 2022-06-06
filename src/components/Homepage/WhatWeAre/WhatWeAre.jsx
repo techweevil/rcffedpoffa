@@ -18,11 +18,11 @@ const WhatWeAre = () => {
             <Container>
                 <div>
                     <div className='text-center'>
-                        <h3 className='font-bold tracking-[.5rem] text-[1.2rem]'>RCF FEDPOFFA</h3>
-                        <h1 className='md:text-[64px] text-[42px] font-[700] md:leading-[82px] leading-[60px] my-[1.8rem]'>A CHURCH THAT'S RELEVANT</h1>
+<h3 className='font-bold tracking-[.5rem] text-[1.2rem]'>RCF FEDPOFFA</h3>
+                        <h1 className='md:text-[64px                        ] text-[42px] font-[700] md:leading-[82px] leading-[60px] my-[1.8rem]'>A CHURCH THAT'S RELEVANT</h1>
                     </div>
 
-                    <div className='mb-[10rem] flex md:flex-row flex-col gap-5'>
+                    <div className='mb-[2rem] flex md:flex-row flex-col gap-5'>
                         {cards.map((card) => (
                             <Card title={card.title} svg={card.svg} text={card.text} />
                         ))}

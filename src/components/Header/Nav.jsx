@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 import { MdMenuOpen } from 'react-icons/md'
 import { Link } from 'react-router-dom';
+import Button from '../helpers/Button';
 
 const navLinks = [
     { name: "HOME", link: "/" },
@@ -28,7 +29,7 @@ const Nav = () => {
                     <motion.p
                         whileTap={{ scale: 0.9 }}
                         whileHover={{ scale: 1.1 }}
-                        className='hover:bg-[#FFFDD0] hover:text-black cursor-pointer p-2'><Link to={link.link}>{link.name}</Link></motion.p>
+                        className='hover:bg-[#FFD2A4] hover:text-black cursor-pointer p-2'><Link to={link.link}>{link.name}</Link></motion.p>
                 ))}
 
             </div>
@@ -48,13 +49,17 @@ const Nav = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className=' flex flex-col items-center gap-2 absolute bg-[#FFFDD0] text-black left-0 w-full  top-12 '>
+                        className=' flex flex-col items-center gap-2 absolute bg-[#FFD2A4] text-black left-0 w-full  top-12 '>
 
                         {navLinks.map((link) => (
                             <motion.p
                                 whileTap={{ scale: 0.9 }}
-                                className='hover:bg-[black] hover:text-[#FFFDD0] cursor-pointer p-2 text-center w-full'><Link to={link.link}>{link.name}</Link></motion.p>
+                                className='hover:bg-[black] hover:text-[#FFD2A4] cursor-pointer p-2 text-center w-full'><Link to={link.link}>{link.name}</Link></motion.p>
                         ))}
+
+                        <div>
+                            <Button name={'Give'} to="/give" />
+                        </div>
 
                     </motion.div>)}
             </div>

@@ -1,10 +1,11 @@
 import React from 'react'
 import rcfLogo from "../../images/rcf_logo.png"
+import Button from '../helpers/Button'
 import Nav from './Nav'
 
 const Header = () => {
     return (
-        <header className='bg-[#0D0D0D] text-white flex  items-center  fixed w-full top-0'>
+        <header className='bg-[#0D0D0D] text-white flex  items-center md:justify-between fixed w-full top-0 z-[999]'>
             <div className=' flex flex-col items-center p-1 '>
                 <div className='flex gap-2 ml-10 items-center my-2'>
                     <img className='w-[2.5rem] ' src={rcfLogo} alt="" />
@@ -16,6 +17,9 @@ const Header = () => {
             </div>
             <div className=''>
                 <Nav />
+            </div>
+            <div className='mr-[3rem] md:inline hidden'>
+                <Button name={"GIVE"} />
             </div>
         </header>
     )

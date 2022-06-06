@@ -12,7 +12,7 @@ const Showcase = () => {
                 <div className='mt-[10rem] text-white '>
                     <h3>WELCOME TO CHURCH</h3>
                     <h1 className='md:text-[64px] text-[52px] font-[700] md:leading-[82px] my-[1.8rem]'>BECOME A PART OF <br /> OUR COMMUNITY</h1>
-                    <Button name="LEARN MORE" />
+                    <Button name="LEARN MORE" to="/aboutus" />
 
                     <div className='flex gap-2 items-center my-[4rem]'>
                         <div className='w-[18px] h-[1px] bg-white'></div>
