@@ -7,7 +7,7 @@ const Showcase = () => {
 
 
     return (
-        <section className={`h-screen ${classes.showcase} flex flex-col items-center `} >
+        <section className={`h-screen ${classes.bg} flex flex-col items-center `} >
             <Container>
                 <div className='mt-[10rem] text-white '>
                     <h3>WELCOME TO CHURCH</h3>

@@ -11,7 +11,7 @@ const AboutUs = () => {
     return (
         <section className={`flex flex-col items-center `} >
             <Container>
-                <div className='mt-[4rem] '>
+                <div className='my-[4rem] '>
                     <div className='text-center'>
                         <h3 className='font-bold tracking-[.5rem] text-[1.2rem]'>RCF FEDPOFFA</h3>
                         <h1 className='md:text-[64px] text-[42px] font-[700] md:leading-[82px] leading-[60px] my-[1.8rem]'>LOVE AND COMPASSION</h1>

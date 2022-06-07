@@ -1,6 +1,6 @@
 
-.showcase{
-    background: url('src/images/landingPageBg.jpg');
+.bg{
+    background: url('../../../images/event.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 480px){
-    .showcase{
+    .bg{
         background-position: -500px 0;
     }
 }

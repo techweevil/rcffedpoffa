@@ -4,12 +4,14 @@ import WhatWeAre from './WhatWeAre/WhatWeAre'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import AboutUs from './AboutUs/AboutUs'
+import NextEvent from './NextEvent/NextEvent'
 
 
 const Homepage = () => {
     useEffect(() => {
         Aos.init({ duration: 1500 })
     }, [])
+    
     return (
         <div className=''>
             <Showcase />
@@ -18,6 +20,9 @@ const Homepage = () => {
             </div>
             <div data-aos='fade-up'>
             <AboutUs />
+            </div>
+            <div data-aos='fade-up'>
+            <NextEvent />
             </div>
         </div>
     )
