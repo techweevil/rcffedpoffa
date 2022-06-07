@@ -17,7 +17,7 @@ const NextEvent = () => {
                         </div>
 
                         <div className='flex md:flex-row flex-col'>
-                            <div className='w-[40%] p-10 py-14 bg-[#FFF5EB]'>
+                            <div className='md:w-[40%] p-10 py-14 bg-[#FFF5EB]'>
                                 <div className='flex flex-row items-end justify-between my-4'>
                                     <h4 className='text-[#A54E2B]'>UPCOMING EVENT</h4>
                                     <div className='flex flex-col items-end'>
@@ -41,7 +41,7 @@ const NextEvent = () => {
                                     <Button name={"REGISTER"} dark />
                                 </div>
                             </div>
-                            <div className='w-[50%]'>
+                            <div className='md:w-[50%]'>
                                 <img src={image} alt="" />
                             </div>
                         </div>

@@ -19,10 +19,10 @@ const AboutUs = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </p>
                     </div>
-                    <div className='flex flex-col items-center my-[2rem]'>
+                    <div className='flex flex-col gap-3 items-center my-[2rem]'>
                         <Button name={"READ MORE"} />
 
-                        <div className='flex gap-10'>
+                        <div className='flex md:flex-row flex-col md:gap-10 gap-2'>
                             <motion.div
                                 whileHover={{ scale: 1.09 }}
                             >
@@ -31,7 +31,7 @@ const AboutUs = () => {
                             </motion.div>
 
 
-                            <motion.div whileHover={{ scale: 1.09 }} className='mt-[3rem]'>
+                            <motion.div whileHover={{ scale: 1.09 }} className='md:mt-[3rem]'>
                                 <img className='w-[290px] ' src={person2} alt="" />
                             </motion.div>
                             <motion.div whileHover={{ scale: 1.09 }}>
