@@ -52,10 +52,11 @@ const Nav = () => {
                         className=' flex flex-col items-center gap-2 absolute bg-[#FFD2A4] text-black left-0 w-full  top-12 '>
 
                         {navLinks.map((link) => (
-                            <motion.p
-                                whileTap={{ scale: 0.9 }}
-                                onClick={handleClick}
-                                className='hover:bg-[black] hover:text-[#FFD2A4] cursor-pointer p-2 text-center w-full'><Link to={link.link}>{link.name}</Link></motion.p>
+                            <Link className='w-full' to={link.link}>
+                                <motion.p
+                                    whileTap={{ scale: 0.9 }}
+                                    onClick={handleClick}
+                                    className='hover:bg-[black] hover:text-[#FFD2A4] cursor-pointer p-2 text-center w-full'>{link.name}</motion.p></Link>
                         ))}
 
                         <div>
