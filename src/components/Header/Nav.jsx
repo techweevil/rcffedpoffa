@@ -54,6 +54,7 @@ const Nav = () => {
                         {navLinks.map((link) => (
                             <motion.p
                                 whileTap={{ scale: 0.9 }}
+                                onClick={handleClick}
                                 className='hover:bg-[black] hover:text-[#FFD2A4] cursor-pointer p-2 text-center w-full'><Link to={link.link}>{link.name}</Link></motion.p>
                         ))}
 
