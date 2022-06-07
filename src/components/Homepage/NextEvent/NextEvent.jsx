@@ -16,7 +16,7 @@ const NextEvent = () => {
                             <h1 className='md:text-[64px] text-[42px] font-[700] md:leading-[82px] leading-[60px] my-[1.8rem]'>COME WITH YOUR EXPECTATIONS TO:</h1>
                         </div>
 
-                        <div className='flex md:flex-row flex-col'>
+                        <div className='flex md:flex-row flex-col my-10'>
                             <div className='md:w-[40%] p-10 py-14 bg-[#FFF5EB]'>
                                 <div className='flex flex-row items-end justify-between my-4'>
                                     <h4 className='text-[#A54E2B]'>UPCOMING EVENT</h4>
