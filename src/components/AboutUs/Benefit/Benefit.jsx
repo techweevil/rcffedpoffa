@@ -18,7 +18,7 @@ const Benefit = () => {
 
                     <div className='flex md:flex-row flex-col gap-10 my-[3rem] items-center'>
                         <div className='w-[100%]'>
-                            <p className='font-bold text-[32px] leading-[7rem]'>FIND FULFILMENT AND JOY </p>
+                            <p className='font-bold text-[32px] '>FIND FULFILMENT AND JOY </p>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
                             </p>
