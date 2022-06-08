@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 import { FaFacebookSquare } from "react-icons/fa"
 import { FaTwitterSquare } from "react-icons/fa"
 import { FaWhatsappSquare } from "react-icons/fa"
-import dummy from '../../../images/dummy.png'
+import dummy from '../../../images/dummy.jpg'
 
 
 const ExcosCard = () => {
     return (
         <motion.div
             whileHover={{ scale: 1.08 }}
-            className='bg-[#F5F2F0] w-[300px] flex flex-col items-center gap-4 my-5 py-[3rem]'>
+            className='bg-[#F5F2F0] w-[300px] flex flex-col items-center gap-4 my-5 py-[3rem] rounded-md shadow-md'>
             <div className='w-[10rem] h-[10rem] overflow-hidden rounded-full shadow-xl'>
                 <img className='' src={dummy} alt="" />
             </div>
