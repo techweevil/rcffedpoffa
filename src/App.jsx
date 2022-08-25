@@ -15,8 +15,7 @@ import Blog from './components/Blog/Blog'
 
 const App = () => {
   return (
-    <div>
-
+    <div className="">
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -24,12 +23,11 @@ const App = () => {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/sermon" element={<Sermon />} />
         <Route path="/blog" element={<Blog />} />
-
       </Routes>
 
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App
