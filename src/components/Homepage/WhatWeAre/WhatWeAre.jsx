@@ -1,9 +1,9 @@
-import React from 'react'
-import Container from '../../helpers/Container'
-import Card from './Card'
-import aboutus from './svgs/aboutus.svg'
-import getInvolved from './svgs/getInvolved.svg'
-import givingBack from './svgs/givingBack.svg'
+import React from "react";
+import Container from "../../helpers/Container";
+import Card from "./Card";
+import aboutus from "./svgs/aboutus.svg";
+import getInvolved from "./svgs/getInvolved.svg";
+import givingBack from "./svgs/givingBack.svg";
 
 const cards = [
   {
@@ -23,26 +23,29 @@ const cards = [
   },
 ];
 
-
 const WhatWeAre = () => {
-    return (
-        <section className='flex flex-col items-center mt-[8rem]'>
-            <Container>
-                <div>
-                    <div className='text-center'>
-<h3 className='font-bold tracking-[.5rem] text-[1.2rem]'>RCF FEDPOFFA</h3>
-                        <h1 className='md:text-[64px                        ] text-[42px] font-[700] md:leading-[82px] leading-[60px] my-[1.8rem]'>A CHURCH THAT'S RELEVANT</h1>
-                    </div>
+  return (
+    <section className="flex flex-col items-center mt-[8rem]">
+      <Container>
+        <div className="w-full">
+          <div className="text-center">
+            <h3 className="font-bold tracking-[.5rem] text-[1.2rem]">
+              RCF FEDPOFFA
+            </h3>
+            <h1 className="md:text-[64px] text-[42px] font-[700] md:leading-[82px] leading-[60px] my-[1.8rem]">
+              A CHURCH THAT'S RELEVANT
+            </h1>
+          </div>
 
-                    <div className='mb-[2rem] md:justify-between flex md:flex-row flex-col gap-5'>
-                        {cards.map((card) => (
-                            <Card title={card.title} svg={card.svg} text={card.text} />
-                        ))}
-                    </div>
-                </div>
-            </Container>
-        </section>
-    )
-}
+          <div className="mb-[2rem] md:justify-between flex md:flex-row flex-col gap-5 w-full">
+            {cards.map((card) => (
+              <Card title={card.title} svg={card.svg} text={card.text} />
+            ))}
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+};
 
-export default WhatWeAre
+export default WhatWeAre;
